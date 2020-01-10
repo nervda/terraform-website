@@ -96,35 +96,23 @@ Example SAML response after successful authentication
         <saml:Subject>
 
             <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
-
                          NameQualifier="**Name_of_ForgeRock_Hosted_IDP** "
-
                          SPNameQualifier="https:// **TFE_DEPLOYMENT**/users/saml/metadata"
-
                          >**user@email.com**</saml:NameID>
 
             <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
-
                 <saml:SubjectConfirmationData InResponseTo="_**SAML_Request_ID"
-
                                               NotOnOrAfter="2020-01-08T23:54:16Z"
-
                                               Recipient="https:// **TFE_DEPLOYMENT**/users/saml/auth"
-
                                               />
-
             </saml:SubjectConfirmation>
-
         </saml:Subject>
 
         <saml:Conditions NotBefore="2020-01-08T23:34:16Z"
-
                          NotOnOrAfter="2020-01-08T23:54:16Z"
-
                          >
 
             <saml:AudienceRestriction>
-
                 <saml:Audience>https:// **TFE_DEPLOYMENT**/users/saml/metadata</saml:Audience>
 
             </saml:AudienceRestriction>
@@ -132,19 +120,13 @@ Example SAML response after successful authentication
         </saml:Conditions>
 
         <saml:AuthnStatement AuthnInstant="2020-01-08T23:44:15Z"
-
                              SessionIndex="**Session_Index_ID**"
-
                              >
 
             <saml:AuthnContext>
 
                 <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml:AuthnContextClassRef>
-
             </saml:AuthnContext>
-
         </saml:AuthnStatement>
-
     </saml:Assertion>
-
 </samlp:Response>
