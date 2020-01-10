@@ -26,7 +26,7 @@ And in the assertion processing tab of the remote SP
 
 Example SAML Request
 
- 
+ ```xml
 
               <samlp:AuthnRequest xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
                     xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
@@ -42,6 +42,7 @@ Example SAML Request
                         Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
                         />
 </samlp:AuthnRequest> 
+```
 
 Example SAML response after successful authentication
 <samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
