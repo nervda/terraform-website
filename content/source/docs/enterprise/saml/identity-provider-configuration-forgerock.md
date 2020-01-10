@@ -45,6 +45,7 @@ Example SAML Request
 ```
 
 Example SAML response after successful authentication
+```xml
 <samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
                 ID="**Response_ID** "
                 InResponseTo="_**Request_ID**"
@@ -127,3 +128,4 @@ Example SAML response after successful authentication
         </saml:AuthnStatement>
     </saml:Assertion>
 </samlp:Response>
+```
