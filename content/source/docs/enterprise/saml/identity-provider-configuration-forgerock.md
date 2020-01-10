@@ -3,9 +3,7 @@ layout: "enterprise"
 page_title: "SAML ForgeRock Identity Provider Configuration - Terraform Enterprise"
 ---
 
-On the TFE console the ForgeRock Access Manager hosted IDP metadata certificate was pasted in the proper pem encoded format.  The IDP SSO and SLO URLs  were entered as well.
-
-
+On the TFE console, paste the ForgeRock Access Manager hosted IDP metadata certificate in the proper pem encoded format.  Enter the IDP SSO and SLO URLs as well.
 
 
 In the hosted IDP assertion content tab the highlighted entry must be on the top to be first in the order of precedence.
